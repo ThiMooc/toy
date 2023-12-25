@@ -10,9 +10,9 @@ var ToySchema = mongoose.Schema({
 });
 
 var ToyModel = mongoose.model('toys', ToySchema); 
-process.on('unhandledRejection', (reason, promise) => {
-   console.error('Unhandled Rejection at:', promise, 'reason:', reason);
-   // Handle the rejection or log it
- });
+// process.on('unhandledRejection', (reason, promise) => {
+//    console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+//    // Handle the rejection or log it
+//  });
  
 module.exports = ToyModel;
