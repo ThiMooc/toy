@@ -1,0 +1,9 @@
+<form action="/collection/edit/{{ collection._id }}" method="post">
+   <h1>Edit Collection</h1>
+   Collection name: <input type="text" name="name" id="" value="{{ collection.name }}" required>
+   <br><br>
+   Collection country: <input type="text" name="country" id="" value="{{ collection.country }}" required>
+   <br><br>
+   <input type="submit" value="Edit">
+   
+</form>

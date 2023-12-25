@@ -1,0 +1,15 @@
+<form action="/toy/edit/{{ toy._id }}" method="post">
+   <h1>Edit toy</h1>
+   Toy name: <input type="text" name="name" id="" required value="{{ toy.name }}">
+   Toy image: <input type="url" name="image" id="" required value="{{ toy.image }}">
+   Toy pirce: <input type="number" name="price" id="" required value="{{ toy.price }}">
+   <img src="{{ toy.image }}" alt="" width="150" height="150">
+   <br><br>
+   Toy collection: <br>
+   <select name="collection">
+      {{#each collections }}
+      <option value="{{ _id }}"> {{ name }}</option>
+      {{/each}}
+   </select>
+   <input type="submit" value="Edit">
+</form>

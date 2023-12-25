@@ -1,0 +1,162 @@
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* Common styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+ul{
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.fab.fa-facebook{
+  padding-left: 80%;
+  color: rgb(29, 29, 120);
+  font-size: 25px;
+
+}
+
+.fab.fa-instagram{
+  color: rgb(204, 29, 29);
+  font-size: 25px;
+
+}
+
+.fas.fa-envelope{
+  color: rgb(3, 0, 0);
+  font-size: 25px;
+
+}
+
+img.backgroud {
+  height: 500px;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Homepage styles */
+header {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px;
+  text-align: justify;
+
+}
+
+h1{
+  background-color: #ff0505;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0; 
+  font-size: 20px;
+}
+
+h2{
+  font-size: 35px;
+  margin: 0; 
+  padding: 10px;
+  background-color: #eeff00;
+  color: #fe3d3d;
+  border-radius: 10px;
+  border: 3px solid #fe3d3d;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin-left: 43%;
+  font-family: Comic Sans MS cursive;
+  margin-top: 40px;
+}
+
+form.col-md-4
+{
+  text-align: justify;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: justify;
+  
+}
+
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+main {
+  padding: 20px;
+}
+
+
+
+.toy-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.toy-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #27c287;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+
+  bottom: 0;
+  width: 100%;
+}
+
+/* Toy listing page styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+th, td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #afef2e;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
